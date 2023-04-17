@@ -1,0 +1,170 @@
+@font-face {
+    font-family: roboto;
+    src:url(./fonts/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: roboto-b;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general style  */
+
+html {
+    font-size: 62.5%;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: clamp(0.75rem, -0.0938rem + 2.25vw, 1.875rem);
+    color:white
+}
+a:hover {
+    color: rgb(80, 98, 134)
+}
+nav a img {
+    width: 5%;
+}
+main section:nth-of-type(1) img {
+    width: 3%;
+    margin-left: 1rem;
+}
+h4 {
+    color:rgb(180, 180, 180);
+    font-size: clamp(0.75rem, -0.0938rem + 2.25vw, 1.875rem);
+    font-family: "roboto-b" Arial, Helvetica, sans-serif;
+}
+p {
+    color:rgb(180, 180, 180);
+    font-size: clamp(0.75rem, -0.0938rem + 2.25vw, 1.575rem);
+}
+.title h4 {
+    color: rgb(0, 0, 0);
+}
+
+/* header */
+
+header {
+    background: linear-gradient(400deg,
+    rgba(14, 106, 94, 0.274),
+    rgba(28, 14, 106, 0.452)),
+    url("./img/NewComputerScienceBackground-gigapixel-standard-scale-2_00x.png") no-repeat center;
+    background-size: cover;
+    height: 45vh;
+}
+header section {
+    margin: 10rem 0;
+    padding-right: 50rem;
+}
+header h1 {
+    font-family: "roboto-b" Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: clamp(6.25rem, 6.97rem + -1.92vw, 5.29rem);
+    margin-bottom: 8rem;
+    word-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+header h2 {
+    color: white;
+    text-align: center;
+}
+section h3 {
+    font-family: "roboto-b" Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: clamp(3.25rem, 4.97rem + -1.92vw, 3.29rem);
+    word-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 12px;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    padding: 2vh 3vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+nav img {
+    width: 2%;
+    margin: 0 1vw;
+}
+
+/* main */
+
+main {
+    background: linear-gradient(400deg,
+    rgba(110, 156, 150, 0.164),
+    rgba(13, 1, 78, 0.473));
+    height: 55vh;
+}
+main section:nth-of-type(1)  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.title h4:nth-of-type(2) {
+    margin-right: 8rem;
+}
+.github {
+    background-color: rgb(44, 53, 59);
+    border-radius: 10px;
+    max-width: 40rem;
+    margin-left: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    padding: 4px;
+    gap: 5px;
+}
+.github article {
+    border: solid rgba(255, 255, 255, 0.13) 0.1px;
+    border-radius: 10px;
+}
+.github article p {
+    border: solid rgba(255, 255, 255, 0.192) 1px;
+}
+
+/* keyframe */
+
+.bing {
+    position: absolute;
+    right: 0;
+    margin-right: 6rem;
+    animation: move 10s infinite ease-in-out;
+}
+
+@keyframes move {
+    0%,100%{
+        transform: rotate(-5deg);
+        transform-origin: 10% -10%;
+    }
+    50%  {
+        transform: rotate(30deg);
+        transform-origin: -10% 10%;
+    }
+    
+}
+
+.asdf {
+    display: flex;
+}
