@@ -1,4 +1,5 @@
 ﻿# Cheat-Sheet
 
-![Screenshot_4](https://user-images.githubusercontent.com/128373175/232564662-dea9ea89-760d-4cfc-bf17-49e1b2ed905d.png)
+![Screenshot_5](https://user-images.githubusercontent.com/128373175/232634925-3cc5d5d3-f608-4935-b8e7-a282067cd3f6.png)
+
 
