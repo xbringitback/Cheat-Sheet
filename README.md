@@ -2,7 +2,8 @@
 
  aktueller Stand...
 
-![Screenshot_6](https://user-images.githubusercontent.com/128373175/232638911-32812dcf-6083-479f-bbd0-554e59bd7893.png)
+![Screenshot_7](https://user-images.githubusercontent.com/128373175/232639139-49d8cc51-f118-4f5b-986e-a17640f5dacf.png)
+
 
 
 
