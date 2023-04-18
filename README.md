@@ -1,5 +1,6 @@
-﻿# Cheat-Sheet
+﻿# Cheat-Sheet aktueller Stand
 
-![Screenshot_5](https://user-images.githubusercontent.com/128373175/232634925-3cc5d5d3-f608-4935-b8e7-a282067cd3f6.png)
+![Screenshot_6](https://user-images.githubusercontent.com/128373175/232635641-820f9e87-a66e-4e99-909b-924dfc195c43.png)
+
 
 
