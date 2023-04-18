@@ -1,4 +1,4 @@
-<h1 align="center">Cheat-Sheet</h1> ![rocket](https://user-images.githubusercontent.com/128373175/232638091-951415d1-4cee-4f45-9a69-c69c4814bc5d.png)
+<h1 align="center">Cheat-Sheet</h1>
 
  aktueller Stand...
 
